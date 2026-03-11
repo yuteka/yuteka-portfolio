@@ -7,7 +7,7 @@ const Certification = () => {
       type: 'certification',
       title: "Java Full Stack Development",
       issuer: "JSpiders Training & Development Center",
-      date: "January 2026",
+      date: "Completed January 2024",
       skills: ["Core Java", "J2EE", "SQL", "Web Technology", "Frameworks"],
       icon: <FiAward />
     },
@@ -15,7 +15,7 @@ const Certification = () => {
       type: 'achievement',
       title: "Paper Presentation at ICAIHMS'25",
       issuer: "Karpagam Institute of Technology (AICTE Sponsored)",
-      date: "March 2025",
+      date: "March 2024",
       details: "Presented a research paper titled: 'Advanced Ambulance Rescue System Using Prioritized Traffic Switching'.",
       icon: <FiFileText />
     }
