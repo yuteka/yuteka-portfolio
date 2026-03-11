@@ -29,7 +29,7 @@ const Projects = () => {
           </p>
         </div>
         
-        <div className="mt-16 grid md:grid-cols-2 gap-8 lg:gap-12 hover:bg-rose-100/20">
+        <div className="mt-16 grid md:grid-cols-2 gap-8 lg:gap-12">
           {projectList.map((project, index) => (
             <motion.div 
               key={index} 

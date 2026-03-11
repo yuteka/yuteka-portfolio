@@ -17,7 +17,7 @@ const About = () => {
           </h2>
         </div>
         
-        <div className="mt-16 max-w-4xl mx-auto hover:bg-rose-100/20">
+        <div className="mt-16 max-w-4xl mx-auto">
           <motion.div 
             className="bg-white/50 backdrop-blur-xl border border-white/60 shadow-2xl rounded-3xl p-8 lg:p-12 transition-all duration-500 hover:shadow-3xl hover:scale-[1.02]"
             initial={{ opacity: 0, y: 50 }}
@@ -26,9 +26,8 @@ const About = () => {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <p className="text-xl text-center text-gray-700 leading-relaxed">
-              I am an <strong className="font-semibold text-deep-rose">AI & Data Science Engineering</strong> with a deep passion for building 
-              beautiful, scalable web applications. Currently, I'm honing my skills as a 
-              <strong className="font-semibold text-deep-rose"> Full Stack Intern</strong> at Brain Bric, where I get to bring ideas to life.
+              I am an <strong className="font-semibold text-deep-rose">AI & Data Science Engineer</strong> with a deep passion for building beautiful, scalable web applications. Currently, I'm honing my skills as a 
+              <strong className="font-semibold text-deep-rose">Full Stack Intern</strong> at Brain Bric, where I get to bring ideas to life.
             </p>
             <p className="mt-6 text-xl text-center text-gray-700 leading-relaxed">
               I thrive on solving complex problems with the <strong className="font-semibold text-gray-800">MERN stack</strong> and am endlessly fascinated by the 

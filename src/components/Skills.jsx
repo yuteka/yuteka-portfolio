@@ -21,7 +21,7 @@ const Skills = () => {
           </p>
         </div>
         
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 hover:bg-rose-100/20">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category, index) => (
             <motion.div 
               key={index} 

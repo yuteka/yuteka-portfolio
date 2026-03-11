@@ -30,7 +30,7 @@ const Experience = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
-            <div className="relative hover:bg-rose-100/20">
+            <div className="relative">
               {/* Timeline Line */}
               <div className="absolute left-9 top-1 h-full w-0.5 bg-gradient-to-b from-purple-200 to-pink-200" aria-hidden="true"></div>
               
