@@ -13,7 +13,7 @@ const Skills = () => {
     <section id="skills" className="py-24 sm:py-32 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="text-center">
-          <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">
+          <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text pb-2">
             Technical Skills
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
