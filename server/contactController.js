@@ -5,7 +5,7 @@ export const sendEmail = async (req, res) => {
 
   // Server-side configuration check
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS || !process.env.EMAIL_RECEIVER) {
-    console.error('ERROR: Nodemailer environment variables are not set. Please check the .env file in the /server directory.');
+    console.error('ERROR: Nodemailer environment variables are not set. Please check your Vercel project settings.');
     return res.status(500).json({ success: false, message: 'Server configuration error. Please contact the site administrator.' });
   }
 

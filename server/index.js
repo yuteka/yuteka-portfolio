@@ -5,12 +5,13 @@ import contactRoutes from './contactRoutes.js';
 
 const app = express();
 
-// 1. Professional CORS Setup
+// Vercel provides the production URL in an environment variable.
+const vercelUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null;
+
 const corsOptions = {
-  origin: [
-    "http://localhost:5173", // Local React (Vite)
-    "https://your-portfolio-frontend.vercel.app" // Your live Vercel URL
-  ],
+  // Allow local development and the live Vercel URL.
+  // The filter(Boolean) removes any null/undefined values.
+  origin: ["http://localhost:5173", vercelUrl].filter(Boolean),
   methods: ["POST", "GET"],
   credentials: true
 };
