@@ -57,7 +57,7 @@ const Certification = () => {
                 {cert.skills ? (
                   <div className="flex flex-wrap gap-2">
                     {cert.skills.map(skill => (
-                      <span key={skill} className="bg-lavender-blush/60 text-gray-800 font-medium px-3 py-1 rounded-full text-xs">
+                      <span key={skill} className="bg-lavender-blush/60 text-gray-800 font-medium px-3 py-1 rounded-full text-sm">
                         {skill}
                       </span>
                     ))}

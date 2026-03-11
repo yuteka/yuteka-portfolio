@@ -1,7 +1,10 @@
 import nodemailer from 'nodemailer';
 
-// The main server entry point (index.js) is responsible for loading environment
-// variables using dotenv. This ensures they are loaded once, at the very top.
+// Fail-fast check: This is a professional practice to ensure the application
+// doesn't start if critical configurations are missing.
+if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+  throw new Error('FATAL_ERROR: Nodemailer environment variables EMAIL_USER or EMAIL_PASS are not set. Check Vercel project settings.');
+}
 
 // Create the transporter. It will automatically use the environment variables
 // loaded by index.js.
